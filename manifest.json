@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "noXious - Unlink Twitter / X Links",
+    "version": "1.0.5",
+    "description": "Turns linked text pointing to twitter.com into plain text because F X.",
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
